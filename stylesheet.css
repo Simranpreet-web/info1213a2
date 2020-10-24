@@ -1,0 +1,238 @@
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image.jpg);
+    background-size: cover;
+}
+
+  
+  jumbotron{
+    margin-top: 60px;
+   
+    box-sizing: border-box;
+    text-align: center;
+   
+}
+{
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    
+    padding: 0 10px;
+  }
+  
+ 
+  .row {margin: 0 -5px;}
+  
+  
+  .row:after {
+    
+    display: table;
+    clear: both;
+    color:white
+  }
+ 
+    
+  
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-color:white
+  }
+  
+ 
+ 
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      height:110%;
+      display: block;
+      margin-bottom: 40px;
+    }
+  }
+
+
+{box-sizing:border-box}
+
+
+.container {
+  width: 70%; 
+  background-color: #ddd; 
+}
+
+.skills {
+  text-align: right; 
+  padding:16px
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.html {width: 90%; background-color: #4CAF50;} 
+.CSS {width: 80%; background-color: #2196F3;} 
+.Python {width: 65%; background-color: #f44336;} 
+.Java{width: 60%; background-color: #808080;} 
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+ 
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+ 
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  .topnav a.active {
+    background-color: grey;
+    color: white;
+  }
+  
+  
+  .topnav .icon {
+    display: none;
+  }
+  * {box-sizing:border-box}
+
+
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  #myTable {
+    border-collapse: collapse; 
+    width: 100%; 
+    border: 1px solid #ddd; 
+    font-size: 18px; 
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left;
+    padding: 12px; 
+  }
+  
+  #myTable tr {
+    
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable tr.header, #myTable tr:hover {
+    
+    background-color: #f1f1f1;
+  }
+
+  #myInput {
+    background-image: url('/css/searchicon.png'); 
+    background-position: 10px 12px; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
+  }
+  
+  #myUL{
+   
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd; 
+    margin-top: -1px; 
+    background-color: #f6f6f6; 
+    padding: 12px; 
+    text-decoration: none; 
+    font-size: 18px; 
+    color: black; 
+    display: block;
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee; 
+  }
+ p{
+     text-align: center;
+     color: white;
+     font-size: medium;
+     
+ }
+ p1{
+    color: black;
+}
+p3{
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
